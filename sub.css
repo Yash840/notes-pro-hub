@@ -300,7 +300,7 @@ h2{
 }
 
 
-@media (max-width: 646px) {
+@media (max-width: 768px) {
     .filter-area{
         flex-direction: column;
     }
