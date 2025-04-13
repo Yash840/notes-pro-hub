@@ -1,0 +1,81 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family: "Ubuntu", cursive;
+    font-size : 16px;
+    background-color: rgb(255, 255, 255);
+    /* justify-items: center; */
+}
+
+body{
+    height : 100vh;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    justify-self: center;
+    margin : 0 auto;
+}
+
+
+.side-bar {
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    left: -200px;
+    top: 0;
+    background-color: #cfd113 !important;
+    color: #fff;
+    z-index: 1;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap : 20px;
+    transition:.5s linear;
+}
+
+.about-section{
+    margin: 20px;
+}
+
+.about-section h1, .contact-section h1{
+    text-align: center;
+    color : #cfd113;
+}
+
+.about-section h1::after, .contact-section h1::after{
+    content: '';
+    display: block;
+    margin : 5px auto;
+    height: 2px;
+    background-color: #cfd113;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.contact-section{
+    margin : 10px auto;
+}
+
+.contact-section ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap  : 25px;
+    margin : 15px;
+}
+
+.contact-section ul li{
+    list-style: none;
+}
+
+.contact-section a{
+    text-decoration: none;
+}
+
+.contact-section i{
+    font-size: 30px;
+    color  : #3c3c3a;
+}

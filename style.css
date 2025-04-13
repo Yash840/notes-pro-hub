@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    background-color: #fff;
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap : 1vh;
+    overflow: hidden;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
+
+.heading{
+    margin : 5vh auto;
+}
+
+.heading h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+#hub{
+    border-radius: 10px;
+    background-color: #cfd113;
+    padding : 5px;
+    color : #fff;
+}
+
+.heading p{
+    text-align: left;
+    color : rgb(88, 85, 85);
+}
+
+.btn-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 4vh auto;
+}
+
+.btn-area a{
+    color: #fff;
+    background-color: #cfd113;
+    font-size: 30px;
+    padding: 10px;
+    margin : 10px;
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#downbtn{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(16, 87, 219);
+}
+
+i{
+    margin: auto;
+}
