@@ -82,8 +82,12 @@ async function loadNotes(url) {
         })
 
         //Rendering all notes
-        notesData.forEach((note) => renderNoteRow(note))
-
+        if(notesData.length === 0){
+            renderNoResults()
+        }else{
+            notesData.forEach((note) => renderNoteRow(note))
+        }
+        
         // To handle filtration of notes
         filterbtn.addEventListener('click', () => {
             const subject = subName.value
